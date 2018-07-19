@@ -1,10 +1,10 @@
-ï»¿%%
+%%
 f = imread('Fig0208(a).tif');
 imshow(f);
-figure,imhist(f); % æ˜¾ç¤ºç›´æ–¹å›¾
+figure,imhist(f); % ÏÔÊ¾Ö±·½Í¼?
 ylim('auto')
 %%
-g = histeq(f,256); % ç›´æ–¹å›¾å‡è¡¡
+g = histeq(f,256); % Ö±·½Í¼¾ùºâ?
 figure,imshow(g);
 figure,imhist(g);
 ylim('auto')
