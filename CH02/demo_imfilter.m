@@ -1,9 +1,9 @@
 %%
-%  º¯ÊıimfilterµÄÓ¦ÓÃ
+%  å‡½æ•°imfilterçš„åº”ç”¨
 f = imread('Fig0216(a).tif');
 imshow(f);
 
-w = ones(31);  %  ÂË²¨Ä£°å
+w = ones(31);  %  ç”Ÿæˆæ»¤æ³¢æ¨¡æ¿
 gd = imfilter(f,w);
 figure,imshow(gd,[ ])
 
