@@ -1,9 +1,9 @@
 %%
-% 函数imfilter的应用
+%  函数imfilter的应用
 f = imread('Fig0216(a).tif');
 imshow(f);
 
-w = ones(31);  % 模板
+w = ones(31);  %  滤波模板
 gd = imfilter(f,w);
 figure,imshow(gd,[ ])
 
