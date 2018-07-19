@@ -8,12 +8,12 @@
 
 ### Contents 
 
-- Chpter 01
+- Chpter 01  绪言
 	
 	- [图像的输入输出和显示](CH01/function_image_input_output_show.m)
 
 
-- Chpter 02
+- Chpter 02  灰度变换与空间滤波
 
 	- [灰度变换函数imadjust和stretchlim](CH02/fun_imadjust.m)
 	- [用于灰度变换的实用M函数](CH02/intrans.m)
@@ -26,3 +26,5 @@
 	- [线性空间滤波](CH02/demo_imfilter.m)
 	- [使用拉普拉斯滤波器滤波](CH02/demo_fpspecial.m)
 
+- Chpter 03 频率域滤波
+	
