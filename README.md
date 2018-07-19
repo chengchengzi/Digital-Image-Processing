@@ -26,5 +26,5 @@
 	- [线性空间滤波](CH02/demo_imfilter.m)
 	- [使用拉普拉斯滤波器滤波](CH02/demo_fpspecial.m)
 
-- Chpter 03 频率域滤波
+
 	
