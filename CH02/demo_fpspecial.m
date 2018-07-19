@@ -1,6 +1,6 @@
 %%
-%  fspacial的应用
-%  拉普拉斯算子
+%  fspacial搴旂敤
+%  鐢熸垚鎷夋櫘鎷夋柉绠楀瓙
 w = fspecial('laplacian',0);
 
 f = imread('Fig0217(a).tif');
