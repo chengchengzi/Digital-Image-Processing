@@ -19,7 +19,7 @@ elseif nargin == 2
         PQ = [P,P];
 elseif (nargin == 3) && strctmpi(PARAM,'pwr2')
     m = max([AB CD]);
-    p = 2^nextpow2(2*m);
+    P = 2^nextpow2(2*m);
     PQ = [P,P];
 else
     erroe('Wrong number of inputs.')
